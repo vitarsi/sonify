@@ -1,0 +1,38 @@
+/* 
+    Document   : main
+    Created on : 25 Mar, 2015, 3:13:24 PM
+    Author     : Vishnu Aravind
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    font-family: Verdana;
+}
+circle {
+    stroke: #000000;
+    fill: #00A;
+    fill-opacity: 0.4;
+}
+rect {
+    fill: #06F;
+}
+
+.bar:hover {
+    fill: #09F;
+    opacity: 0.5;
+}
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}

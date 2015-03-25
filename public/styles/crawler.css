@@ -1,0 +1,37 @@
+/* 
+    Document   : crawler
+    Created on : 25 Mar, 2015, 2:14:33 PM
+    Author     : Vishnu Aravind
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    font-family: Verdana;
+}
+#startButton {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 2px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+#currentJob {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#currentUrl {
+    font-size: 1.2em;
+}
+#loader {
+    width: 0;
+    height: 0;
+    border: none;
+    display: none;
+}
